@@ -25,7 +25,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6563936773))
+OWNER_ID = int(getenv("OWNER_ID", 6958129929))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -35,15 +35,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Rq7mg/k-y-c-music",
+    "https://t.me/ramowlfbio",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/kycmusicdestek")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/kiyicitayfaa")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Botaltyapi")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BotAltyapiChat")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -84,20 +84,20 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/resim-03-14"
+    "START_IMG_URL", "https://te.legra.ph/file/53dddd8cccfa888225d94.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/resim-03-14")
-PLAYLIST_IMG_URL = "https://telegra.ph/resim-03-14"
-STATS_IMG_URL = "https://telegra.ph/resim-03-14"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/resim-03-14"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/resim-03-14"
-STREAM_IMG_URL = "https://telegra.ph/resim-03-14"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/resim-03-14"
-YOUTUBE_IMG_URL = "https://telegra.ph/resim-03-14"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/resim-03-14"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/resim-03-14"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/resim-03-14"
+    "PING_IMG_URL", "https://te.legra.ph/file/366e6e941b048e36b8468.jpg")
+PLAYLIST_IMG_URL = "https://te.legra.ph/file/04636ac65d3b65306c64b.jpg"
+STATS_IMG_URL = "https://te.legra.ph/file/53dddd8cccfa888225d94.jpg"
+TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/2fcf3acaefd8fe98357d7.jpg"
+TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/2228614d4a8bb6d8261db.jpg"
+STREAM_IMG_URL = "https://te.legra.ph/file/f3d954d85c0986abdf604.jpg"
+SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/189c777138c85bb394f49.jpg"
+YOUTUBE_IMG_URL = "https://te.legra.ph/file/a39509bf85f227739bc68.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/366e6e941b048e36b8468.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/53dddd8cccfa888225d94.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/53dddd8cccfa888225d94.jpg"
 
 
 def time_to_seconds(time):
